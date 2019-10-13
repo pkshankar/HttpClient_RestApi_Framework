@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-10-13T09:27:18Z" name="Default suite" finished-at="2019-10-13T09:27:20Z" duration-ms="2206">
+    <groups>
+    </groups>
+    <test started-at="2019-10-13T09:27:18Z" name="Default test" finished-at="2019-10-13T09:27:20Z" duration-ms="2206">
+      <class name="com.qa.test.PostTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.PostTest@2893de87]" started-at="2019-10-13T14:57:18Z" name="setUp" finished-at="2019-10-13T14:57:18Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserGoRest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.PostTest@2893de87]" started-at="2019-10-13T14:57:18Z" name="createUserGoRest" data-provider="getData" finished-at="2019-10-13T14:57:20Z" duration-ms="1248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Smika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[solva]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[smika@zmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserGoRest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.qa.test.PostTest@2893de87]" started-at="2019-10-13T14:57:20Z" name="setUp" finished-at="2019-10-13T14:57:20Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUserGoRest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.test.PostTest@2893de87]" started-at="2019-10-13T14:57:20Z" name="createUserGoRest" data-provider="getData" finished-at="2019-10-13T14:57:20Z" duration-ms="423" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tolsa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nuka]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[solsa@zmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserGoRest -->
+      </class> <!-- com.qa.test.PostTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
